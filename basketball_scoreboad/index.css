@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background:#1b244a;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color:#EEEEEE;
+    font-family: Verdana, sans-serif;
+    margin: 50px auto;
+    
+}
+ h3{
+    width: 149px;
+    height: 36px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px black;
+    
+    
+ }
+
+#one_h,#two_h,#three_h,#one_g,#two_g,#three_g{
+    background: #1b244a;
+    color:#9AABD8;
+    width:45px ;
+    height: 45px;
+    padding: 7px 9px; 
+    border: 2px #9AABD8 solid ;
+    border-radius: 5px;
+    font-family: "Cursed Timer ULiL";
+    font-size: 20px;
+    text-shadow: 5px 0px 6px black;
+}
+#score_h,#score_g{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 150px;
+    height: 120px;
+    font-size:70px ;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+}
